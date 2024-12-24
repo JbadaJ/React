@@ -6,7 +6,7 @@ function Header() {
   return (
     <header style={styles.header}>
       <nav style={styles.nav}>
-        <Link to="/" style={styles.link}>Home</Link>
+        <Link to="/" style={styles.link}>메인</Link>
         <Link to="/about" style={styles.link}>설명</Link>
         <Link to="/list"  style={styles.link}>방문 정보</Link>
       </nav>

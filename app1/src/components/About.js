@@ -4,7 +4,7 @@ import "./Description.css"; // 스타일을 위해 추가
 function Description() {
   return (
     <div className="description-container">
-      <h1>방문 리스트 페이지 사용법</h1>
+      <h1>방문 정보 페이지 사용법</h1>
       
       <section className="description-section">
         <h2>1. 정보 추가</h2>
