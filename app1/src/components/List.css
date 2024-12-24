@@ -1,0 +1,157 @@
+/* 공통 버튼 스타일 */
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* 버튼: 상세보기 */
+  .detail-button {
+    background-color: #007bff;
+    color: white;
+  }
+  .detail-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  /* 버튼: 수정 */
+  .edit-button {
+    background-color: #28a745;
+    color: white;
+  }
+  .edit-button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+  /* 버튼: 삭제 */
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  .delete-button:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+  }
+  
+  /* 모달 오버레이 */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* 모달 */
+  .modal {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 90%; /* 반응형 처리 */
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+  }
+  
+  .modal h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* 모달 폼 */
+  .modal label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .modal input,
+  .modal textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  .modal textarea {
+    resize: none;
+    height: 80px;
+  }
+  
+  /* 모달 버튼 그룹 */
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .modal-buttons button {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal-buttons .save-button {
+    background-color: #007bff;
+    color: white;
+  }
+  .modal-buttons .save-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .modal-buttons .cancel-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  .modal-buttons .cancel-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* 닫기 버튼 */
+  button.close-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button.close-button:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+  }
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .table-container {
+    max-height: 400px; /* 테이블의 최대 높이를 설정 */
+    overflow-y: auto; /* 내용이 넘칠 경우 세로 스크롤 추가 */
+    margin-top: 20px; /* 상단 여백 */
+    background-color: #E6F7FF;
+  }
+  
